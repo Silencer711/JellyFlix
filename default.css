@@ -22,27 +22,111 @@
 
 /* Fudliflix Header Logo */
 
-.imgLogoIcon {
-  content: var(--fudliflix-logo) !important;
-  height: 28px !important;
-  width: auto !important;
-  object-fit: contain;
+.skinHeader .headerLogo img[src*="logo"],
+.skinHeader .skinHeader-logo img[src*="logo"],
+.pageTitle.pageTitleWithLogo img[src*="logo"],
+.adminDrawerLogo img[src*="logo"],
+.headerLogo,
+.skinHeader-logo {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
 }
 
-.headerLeft a.button-flat {
-  display: flex;
-  align-items: center;
+.pageTitle,
+.pageTitle.pageTitleWithLogo,
+h3.pageTitle,
+h3.pageTitle.pageTitleWithLogo,
+h3.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo,
+.skinHeader .pageTitle,
+.skinHeader h3 {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
-.pageTitleWithDefaultPageTitle {
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+  font-size: 0 !important;
+  color: transparent !important;
+  width: 168px !important;
+  height: 42px !important;
+  margin: 0.5em 0 !important;
+  position: relative !important;
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
+  content: "" !important;
+  display: block !important;
+  width: 168px !important;
+  height: 42px !important;
+  background-image: var(--fudliflix-logo) !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: contain !important;
+}
+
+.pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::after {
   display: none !important;
 }
 
 .adminDrawerLogo {
-  content: var(--fudliflix-logo) !important;
-  height: 36px !important;
-  width: auto !important;
-  object-fit: contain;
+  position: relative !important;
+  width: 148px !important;
+  height: 38px !important;
+  min-width: 148px !important;
+  font-size: 0 !important;
+  color: transparent !important;
+  background: transparent !important;
+}
+
+.adminDrawerLogo::before {
+  content: "";
+  display: block;
+  width: 148px;
+  height: 38px;
+  background-image: var(--fudliflix-logo);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+}
+
+@media (max-width: 767px) {
+  .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+    width: 132px !important;
+    height: 34px !important;
+  }
+
+  .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
+    width: 132px !important;
+    height: 34px !important;
+  }
+
+  .adminDrawerLogo {
+    width: 132px !important;
+    min-width: 132px !important;
+    height: 34px !important;
+  }
+
+  .adminDrawerLogo::before {
+    width: 132px;
+    height: 34px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
+    width: 176px !important;
+    height: 46px !important;
+  }
+
+  .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
+    width: 176px !important;
+    height: 46px !important;
+  }
 }
 
 /* Keyframe Animations */
