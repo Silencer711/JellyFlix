@@ -17,7 +17,7 @@
   --transition-fast: 0.2s var(--ease-smooth);
   --transition-med: 0.35s var(--ease-out-expo);
   --transition-slow: 0.5s var(--ease-out-expo);
-  --fudliflix-logo: url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@main/img/fudliflix-logo.png");
+  --fudliflix-logo: url("https://raw.githubusercontent.com/arturict/Fudliflix/main/img/fudliflix-logo.png");
 }
 
 /* Fudliflix Header Logo */
