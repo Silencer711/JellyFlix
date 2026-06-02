@@ -4249,8 +4249,8 @@ h3.pageTitle:focus-visible {
 
     /* Set container size - LARGE LOGO LEFT ALIGNED */
     display: inline-block !important;
-    width: 260px !important;
-    height: 64px !important;
+    width: 480px !important;
+    height: 118px !important;
     margin: 0.25em 0 0.25em 0 !important;
     position: relative !important;
 }
@@ -4259,8 +4259,8 @@ h3.pageTitle:focus-visible {
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
     content: "" !important;
     display: block !important;
-    width: 260px !important;
-    height: 64px !important;
+    width: 480px !important;
+    height: 118px !important;
     background-image: url("https://raw.githubusercontent.com/arturict/Fudliflix/main/img/fudliflix-logo.png") !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
@@ -4303,15 +4303,15 @@ h3.pageTitle:focus-visible {
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-        width: 180px !important;
-        height: 46px !important;
+        width: 300px !important;
+        height: 76px !important;
         margin: 0.25em 0 0.25em 0 !important;
         display: inline-block !important;
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-        width: 180px !important;
-        height: 46px !important;
+        width: 300px !important;
+        height: 76px !important;
     }
 }
 
@@ -4322,13 +4322,13 @@ h3.pageTitle:focus-visible {
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-        width: 230px !important;
-        height: 58px !important;
+        width: 420px !important;
+        height: 104px !important;
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-        width: 230px !important;
-        height: 58px !important;
+        width: 420px !important;
+        height: 104px !important;
     }
 }
 
