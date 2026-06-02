@@ -14,14 +14,14 @@ Go to **Settings > Dashboard > General**, scroll down to **Custom CSS** and past
 ### Base Theme
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@main/default.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/main/default.css");
 ```
 
 ### With Logos (recommended)
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@main/default.css");
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@main/addons/Logo.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/main/default.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/main/addons/Logo.css");
 ```
 
 ### Pinned Version
@@ -29,8 +29,8 @@ Go to **Settings > Dashboard > General**, scroll down to **Custom CSS** and past
 Replace `main` with a specific commit hash or tag to lock the version:
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@<commit-or-tag>/default.css");
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@<commit-or-tag>/addons/Logo.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/<commit-or-tag>/default.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/<commit-or-tag>/addons/Logo.css");
 ```
 
 ---
@@ -41,12 +41,12 @@ The default accent is red. You can override it with these addons:
 
 **Jellyfin Blue:**
 ```css
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@main/addons/jf-blue.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/main/addons/jf-blue.css");
 ```
 
 **Jellyfin Purple:**
 ```css
-@import url("https://cdn.jsdelivr.net/gh/arturict/Fudliflix@main/addons/jf-purple.css");
+@import url("https://raw.githubusercontent.com/arturict/Fudliflix/main/addons/jf-purple.css");
 ```
 
 ---
