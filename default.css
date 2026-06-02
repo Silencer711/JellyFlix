@@ -4247,11 +4247,11 @@ h3.pageTitle:focus-visible {
     box-shadow: none !important;
     padding: 0 !important;
 
-    /* Set container size - MEDIUM LOGO LEFT ALIGNED */
+    /* Set container size - LARGE LOGO LEFT ALIGNED */
     display: inline-block !important;
-    width: 176px !important;
-    height: 48px !important;
-    margin: 0.5em 0 0.5em 0 !important;
+    width: 260px !important;
+    height: 64px !important;
+    margin: 0.25em 0 0.25em 0 !important;
     position: relative !important;
 }
 
@@ -4259,8 +4259,8 @@ h3.pageTitle:focus-visible {
 .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
     content: "" !important;
     display: block !important;
-    width: 176px !important;
-    height: 48px !important;
+    width: 260px !important;
+    height: 64px !important;
     background-image: url("https://raw.githubusercontent.com/arturict/Fudliflix/main/img/fudliflix-logo.png") !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
@@ -4303,15 +4303,15 @@ h3.pageTitle:focus-visible {
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-        width: 130px !important;
-        height: 36px !important;
-        margin: 0.5em 0 0.5em 0 !important;
+        width: 180px !important;
+        height: 46px !important;
+        margin: 0.25em 0 0.25em 0 !important;
         display: inline-block !important;
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-        width: 130px !important;
-        height: 36px !important;
+        width: 180px !important;
+        height: 46px !important;
     }
 }
 
@@ -4322,13 +4322,13 @@ h3.pageTitle:focus-visible {
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo {
-        width: 163px !important;
-        height: 44px !important;
+        width: 230px !important;
+        height: 58px !important;
     }
 
     .pageTitle.pageTitleWithLogo.pageTitleWithDefaultLogo::before {
-        width: 163px !important;
-        height: 44px !important;
+        width: 230px !important;
+        height: 58px !important;
     }
 }
 
